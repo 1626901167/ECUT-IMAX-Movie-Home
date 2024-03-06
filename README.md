@@ -3,7 +3,7 @@
 
 ## 开幕
 
-<img src="C:\Users\温文尔雅\OneDrive\桌面\HOME\ECUT-IMAX-Movie-Home\readme_images\屏幕截图 2024-03-07 041925.png" alt="屏幕截图 2024-03-07 041925" style="zoom:67%;" />
+![image](readme_images\屏幕截图 2024-03-07 041925.png)
 
 ## 导航栏
 
