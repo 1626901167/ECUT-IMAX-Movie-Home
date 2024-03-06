@@ -3,7 +3,7 @@
 
 ## 开幕
 
-![image](readme_images\屏幕截图 2024-03-07 041925.png)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-03-07%20041925.png)
 
 ## 导航栏
 
