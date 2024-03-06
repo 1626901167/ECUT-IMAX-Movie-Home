@@ -1,0 +1,225 @@
+/* 影片介绍（右边那块） */
+.jieshao {
+    /* margin-top: 14px;
+    margin-right: 14px;
+    margin-left: 14px; */
+    margin: 0;
+}
+
+/* 图片效果 */
+img {
+    max-width: 100%;
+}
+
+/* 图片下边白框那块 */
+.view-bottom {
+    height: 89px;
+    background-color: white;
+    margin-bottom: 14px;
+    padding-top: 15px;
+
+}
+
+.view-top {
+    position: relative;
+    ;
+}
+
+/* 图片和图片下白框通用 */
+.view-field {
+    width: 100%;
+}
+
+/* 文字超链接效果 */
+.view-text>a {
+    text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    color: #000912;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 15px;
+
+}
+
+/* 分享链接部分 */
+
+.view-text>a:hover {
+    color: #428bca;
+}
+
+/* 页面小于992像素时 */
+@media(max-width:992px) {
+    .navbar {
+        width: 44px;
+        height: 44px;
+
+    }
+
+    .navbar ul input {
+        width: 52px;
+        height: 44px;
+    }
+
+    .navbar ul li {
+        width: 52px;
+        height: 44px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        right: 44px;
+        top: 0px;
+    }
+}
+
+/* 页面大于992像素 小于1359px时 */
+@media(min-width:992px) {
+    .yingxun {
+        width: 325px;
+        flex-shrink: 0;
+        display: flex;
+    }
+
+    .jieshao {
+        margin-left: 0px;
+    }
+
+    .navbar {
+        width: 58px;
+        height: 39px;
+
+    }
+
+    .navbar ul input {
+        width: 51px;
+        height: 39px;
+    }
+
+    .navbar ul li {
+        width: 51px;
+        height: 39px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        right: 58px;
+        top: 0px;
+    }
+}
+
+/* 页面大于1359px */
+@media(min-width:1359px) {
+    .yingxun {
+        width: 24.392%;
+        min-width: 325px;
+    }
+}
+
+.navbar ul li:nth-child(2) {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 153px;
+    opacity: 0;
+}
+
+.navbar ul li:nth-child(2) img {
+    width: 200px;
+    height: 250px;
+}
+
+.navbar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #d5d5d5;
+}
+
+.navbar,
+.b,
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar input {
+    display: none;
+    position: absolute;
+    right: 0px;
+}
+
+.navbar label {
+    position: absolute;
+    width: 58px;
+    height: 39px;
+
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.navbar label::before,
+.navbar label::after {
+    content: "";
+    position: absolute;
+    left: 18px;
+    width: 21px;
+    height: 4px;
+    background-color: #000912;
+    transition: transform 0.3s ease-out, top 0.3s ease-out 0.3s;
+}
+
+.navbar label::before {
+    top: calc(50% - 10px);
+}
+
+.navbar label::after {
+    top: calc(50% + 6px);
+}
+
+.navbar input:checked+label::before {
+    top: calc(50% - 2px);
+    transform: rotate(-45deg);
+    transition: top 0.3s ease-out, transform 0.3s ease-out 0.3s;
+}
+
+.navbar input:checked+label::after {
+    top: calc(50% - 2px);
+    transform: rotate(45deg);
+
+    transition: top 0.3s ease-out, transform 0.3s ease-out 0.3s;
+}
+
+.navbar ul {
+
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.navbar ul li {
+    list-style: none;
+    background-color: #d5d5d5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar input:checked~ul {
+    opacity: 1;
+}
+
+.navbar ul li img {
+    width: 26px;
+    height: 26px;
+}
+
+.navbar ul input {
+    opacity: 0;
+    display: block;
+}
+
+.navbar ul input:checked~li:nth-child(2) {
+    opacity: 1;
+}

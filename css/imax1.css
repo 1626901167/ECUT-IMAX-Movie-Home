@@ -1,0 +1,246 @@
+@media(min-width:992px) {
+    .yx{
+        margin-right: 15px;
+        margin-bottom: 14px;
+    }
+
+    .yx .box {
+        border: none;
+        background-color: #0072ce;
+        height: 100%;
+        width: 325px;
+        float: left;
+    }
+
+    .yx .bj {
+        padding: 2.8em 2.25em;
+        padding-top: 2.8em;
+        padding-right: 2.25em;
+        padding-bottom: 2.8em;
+        padding-left: 2.25em;
+    }
+
+    .yx span {
+        color: white;
+        font-size: 14px;
+    }
+
+    .yx a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 微软雅黑, 微软雅黑;
+
+        transition: color 0.5s;
+        transition-property: color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+        font-weight: 200;
+        line-height: 1.2;
+    }
+
+    .yx .a1 {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 微软雅黑, 微软雅黑;
+    }
+
+    .yx a:hover,
+    span:hover {
+        color: black;
+    }
+
+    .yx .x {
+        margin-bottom: 2em;
+    }
+
+    .yx .y {
+        margin-bottom: 1.5em;
+    }
+
+    .yx .mypic {
+        float: right;
+    }
+
+    .yx .carousel-indicators {
+        display: none;
+    }
+
+    .yx .carousel-item {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media(max-width:992px) and (min-width:784px){
+    .yx{
+        flex-grow: 1;
+    }
+    
+    .yx .box {
+        border: none;
+        background-color: #0072ce;
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .yx .bj {
+        padding: 1.429em;
+        padding-top: 1.429em;
+        padding-right: 1.429em;
+        padding-bottom: 1.429em;
+        padding-left: 1.429em;
+    }
+
+    .yx span {
+        color: white;
+        font-size: 12px;
+    }
+
+    .yx a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 微软雅黑, 微软雅黑;
+
+        transition: color 0.5s;
+        transition-property: color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+        font-weight: 200;
+        line-height: 1.2;
+    }
+
+    .yx .a1 {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: 微软雅黑, 微软雅黑;
+    }
+
+    .yx a:hover,
+    span:hover {
+        color: black;
+    }
+
+    .yx .x {
+        margin-bottom: 1em;
+    }
+
+    .yx .y {
+        margin-bottom: 0.2em;
+    }
+
+    .yx .mypic {
+        float: right;
+    }
+
+    .yx img {
+        height: 44px;
+        width: 44px;
+    }
+
+    .yx .carousel-indicators {
+        display: none;
+    }
+
+    .yx .carousel-item {
+        display: block;
+        margin: 0;
+    }
+
+}
+
+@media(max-width:784px) {
+
+    .yx{
+        flex-grow: 1;
+    }
+
+    .yx .box {
+        border: none;
+        background-color: #0072ce;
+        width: 100%;
+        height: 400px;
+        float: left;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .yx .bj {
+        padding: 1.429em;
+        padding-top: 0em;
+        padding-right: 1.429em;
+        padding-bottom: 4em;
+        padding-left: 1.429em;
+    }
+
+    .yx span {
+        color: white;
+        font-size: 13.7px;
+    }
+
+    .yx .a2 {
+        color: white;
+        text-decoration: none;
+        font-size: 20.5px;
+        font-family: 微软雅黑, 微软雅黑;
+
+        transition: color 0.5s;
+        transition-property: color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+
+        font-weight: 200;
+        line-height: 1.2;
+    }
+
+    .yx .a1 {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-family: 微软雅黑, 微软雅黑;
+        margin-bottom: 1.182em;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1.571em;
+        padding: 0;
+        text-align: left;
+    }
+
+    .yx a:hover,
+    span:hover {
+        color: black;
+    }
+
+    .yx .x {
+        margin-bottom: 1em;
+    }
+
+    .yx .y {
+        margin-bottom: 0.2em;
+    }
+
+    .yx .mypic {
+        float: right;
+    }
+
+    .yx img {
+        height: 44px;
+        width: 44px;
+    }
+
+    .yx .carousel-indicators {
+        padding-top: 20px;
+        padding-left: 20%;
+        display: block;
+    }
+}

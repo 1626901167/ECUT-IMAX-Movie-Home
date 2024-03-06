@@ -1,0 +1,499 @@
+.navbar0 {
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 999;
+}
+.navbar0 .container-fluid {
+    background-color: rgb(224, 224, 224);
+    padding: 0px;
+}
+
+.navbar0 .collapse {
+    justify-content: space-between;
+}
+
+.navbar0 .nav-item{
+    overflow: hidden;
+}
+
+.navbar0 .nav-link {
+    padding: 0px !important;
+}
+
+.navbar0 .nav-link-search::before {
+    content: "\eafe";
+    font-family: "iconfont";
+    position: absolute;
+    top: 1px;
+    right: 12px;
+    font-size: 38px;
+}
+
+.navbar0 .nav-link-more::before {
+    content: "\e600";
+    font-family: "iconfont";
+    position: absolute;
+    top: 1px;
+    right: 16px;
+    font-size: 28px;
+}
+
+.navbar0 .nav-link-close{
+    display: none;
+}
+.navbar0 .nav-link-close::before{
+    content: "\e6b5";
+    font-family: "iconfont";
+    position: absolute;
+    top: -1px;
+    right: 19px;
+    font-size: 24px;
+}
+
+.navbar0 .nav-link-close1{
+    display: none;
+}
+.navbar0 .nav-link-close1::before{
+    content: "\e6b5";
+    font-family: "iconfont";
+    position: absolute;
+    top: -1px;
+    right: 19px;
+    font-size: 24px;
+}
+
+.navbar0 .third {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+/* 搜索框样式 */
+.search {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+#search-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 42px;
+    background-color: rgb(186, 186, 186);
+}
+
+.ip1 {
+    flex: 1;
+    height: 42px;
+    background-color: rgb(186, 186, 186);
+    padding: 0px 15px;
+    box-shadow: inset 0 0 5px rgb(108, 108, 243);
+    border: none;
+    text-align: right;
+}
+
+.ip1:focus {
+    outline: none;
+}
+
+.show {
+    display: block !important;
+}
+
+
+.bt1 {
+    color: #000912;
+    font-size: 11px;
+    width: 121px;
+    height: 42px;
+    border: none;
+    background-color: rgb(186, 186, 186);
+}
+
+
+
+/* 更多内容框样式 */
+.more {
+    width: 325px;
+    height: 500px;
+    padding-bottom: 56px;
+    background-color: rgb(150, 153, 161);
+    float: right;
+    display: none;
+    overflow-y:auto;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+}
+
+.more ul {
+    padding: 0px;
+}
+
+.more ul li {
+    width: 100%;
+    list-style: none;
+    color: #000912;
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+
+.more>ul>li:nth-child(1) img {
+    width: 14px;
+    height: 13px;
+    margin-right: 6px;
+}
+
+.yuyan {
+    margin: 0px;
+    padding: 21px 23px;
+    float: right;
+    font-weight: bolder;
+}
+
+.yuyan:hover img {
+    color: white;
+}
+
+.language {
+    padding: 11px 0px;
+    float: right;
+    border-top: 1px solid rgb(90, 89, 89);
+}
+
+.img1 {
+    width: 14px;
+    height: 11px;
+    margin-left: 6px;
+    right: 0;
+}
+
+.language-link {
+    padding: 10px 24px 0px;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+.language-link1 {
+    padding: 0px 24px 20px;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+
+.guanyu {
+    padding: 12px 20px;
+    float: right;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    font-weight: bolder;
+}
+
+.social-buttons {
+    flex: 1;
+    margin: 20px 18px 0px 0px;
+    float: right;
+}
+
+.more ul li a {
+    color: black;
+}
+
+.more ul li a:hover {
+    color: white;
+    transition-duration: 700ms;
+}
+.more .dropdown-menu {
+    position: relative !important;
+    transform: translate3d(0, 50px, 0) !important;
+    margin-bottom: 50px !important;
+    background-color: rgb(150, 153, 161);
+    border-radius: 0px;
+    border: none;
+    border-top: 1px solid rgb(90, 89, 89);
+    padding: 14px 0px 12px !important;
+}
+
+.more .dropdown-menu>li>a:hover {
+    background-color: rgb(186, 186, 186);
+}
+
+.more .dropdown-item {
+    padding: 9.4px 24px;
+    text-align: right;
+}
+.social-buttons>a {
+    margin: 0 2em;
+}
+
+.social-buttons img {
+    width: 22px;
+    height: 22px;
+
+}
+.more .nav-link {
+    display: block;
+    padding: 15px 24px 10px !important;
+}
+.bgc{
+    background-color: black !important;
+}
+/* 屏幕宽度大于992px时的效果 */
+@media(min-width:992px) {
+    .navbar0 .navbar-nav {
+        height: 60px;
+        line-height: 60px;
+    }
+    .navbar0 .imax {
+        position: absolute;
+        width: 106px;
+        height: 43px;
+        top: 9px;
+        overflow: hidden;
+        padding: 0px !important;
+        margin-left: 20px;
+    }
+    .navbar0 .imax>a {
+        width: 106px;
+        height: 43px;
+        background-image: url(./IMAX.png);
+        background-size: 108px;
+    }
+    .navbar0 .imax>a:hover {
+        background-position: 107px -44px;
+        background-size: 110px;
+    }
+    .navbar0 .navbar-nav:nth-child(2)>li>a {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar0 .navbar-nav:nth-child(2)>li {
+        font-size: 12px;
+        border-left: 1px solid #d5d5d5;
+    }
+    .navbar0 .navbar-nav:nth-child(2)>li>a:hover {
+        color: white;
+    }
+    .navbar0 .navbar {
+        overflow: hidden;
+    }
+    .navbar0 .div1 {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transition: all 0.5s;
+        width: 96px;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar0 .nav-item:hover .div1 {
+        transform: translateY(-60px);
+    }
+    .navbar0 .first {
+        position: relative;
+        width: 96px;
+        height: 60px;
+    }
+    .navbar0 .first>.nav-link {
+        position: absolute;
+        z-index: 999;
+    }
+    .navbar0 .div2 {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transition: all 0.5s;
+        width: 96px;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar0 .nav-item:hover .div2 {
+        transform: translateY(-60px);
+    }
+    .navbar0 .second {
+        position: relative;
+        width: 85px;
+        height: 60px;
+    }
+    .navbar0 .second>.nav-link {
+        position: absolute;
+        z-index: 999;
+    }
+    .navbar0 .div3 {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transition: all 0.5s;
+        width: 85px;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar0 .nav-item:hover .div3 {
+        transform: translateY(-60px);
+    }
+    .navbar0 .third>.nav-link-search {
+        position: absolute;
+        z-index: 999;
+    }
+    .navbar0 .third>.nav-link-more {
+        position: absolute;
+        z-index: 999;
+    }
+    .navbar0 .third>.nav-link-close {
+        position: absolute;
+        z-index: 888;
+    }
+    .navbar0 .third>.nav-link-close1 {
+        position: absolute;
+        z-index: 888;
+    }
+    .navbar0 .div4 {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transition: all 0.5s;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar0 .nav-item:hover .div4 {
+        transform: translateY(-60px);
+    }
+    .navbar0 .div5 {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        transition: all 0.5s;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+    }
+    .navbar0 .nav-item:hover .div5 {
+        transform: translateY(-60px);
+    }
+    .bt1:hover {
+        background-color: black;
+        color: white;
+        border: 1px solid blue;
+    }
+}
+
+/* 当宽度小于992px时的效果 */
+@media(max-width:992px) {
+    body{
+        margin-top: 96px !important;
+    }
+
+    .navbar0 .nav-link-search::before {
+        content: "\eafe";
+        font-family: "iconfont";
+        position: absolute;
+        top: 0px;
+        right: 12px;
+        font-size: 38px;
+    }
+    
+    .navbar0 .nav-link-more::before {
+        content: "\e600";
+        font-family: "iconfont";
+        position: absolute;
+        top: 6px;
+        right: 17px;
+        font-size: 28px;
+    }
+    .navbar0 .nav-link-close::before{
+        top: 10px;
+    }
+    .navbar0  .nav-link-close1::before{
+        top: 10px;
+    }
+    .navbar0 .imax {
+        position: absolute;
+        width: 100px;
+        height: 54px;
+        top: 9px;
+        overflow: hidden;
+        padding: 0px 15px !important;
+    }
+    .navbar0 .imax>a {
+        width: 100px;
+        height: 34px;
+        background-image: url(./IMAX.png);
+        background-size: 85px;
+    }
+    .navbar0 .toggle{
+        display: none;
+    }
+    .navbar0 .nav-link-search,.nav-link-more{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+    }
+    .navbar0 .collapse{
+        height: 96px;
+        display: block !important;
+    }
+    .navbar0 .navbar-nav:nth-child(2) {
+        height: 42px !important;
+        position: relative;
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-items: center;
+        border-top: 1px solid #d5d5d5;
+    }
+    .navbar0 .navbar-nav:nth-child(2)>li>a{
+        font-size: 14px;
+        color:#000912;
+    }
+    .navbar0 .navbar-nav:nth-child(1){
+        width: 114px;
+        height: 54px;
+    }
+    .navbar0 .sec{
+        position: absolute;
+        height: 54px;
+        top: -55px;
+        right: 60px;
+        border-left: 1px solid #d5d5d5;
+    }
+    .navbar0 .bts{
+        position: absolute;
+        height: 54px;
+        top: -54px;
+        right: 0px;
+        border-left: 1px solid #d5d5d5;
+    }
+    .search{
+        position: fixed;
+        top: 54px;
+    }
+    .bt1:hover{
+        border: 2px solid blue;
+    }
+    .more{
+        position: fixed;
+        right: 0;
+    }
+}
+/* 当屏幕宽度小于768px时的效果 */
+@media(max-width:768px){
+    .more{
+        width: 100%;
+    }
+    .social-buttons{
+        display: flex;
+        float: left;
+        width: 325px;
+        justify-content:flex-end;
+
+    }
+}
