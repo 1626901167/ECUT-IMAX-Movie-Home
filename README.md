@@ -9,24 +9,24 @@
 
 ![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043123690.png)
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043153365)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043153365.png)
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043251623)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043251623.png)
 
 ## 轮播图（自动轮播）
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043353244)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043353244.png)
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043436117)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043436117.png)
 
 ## 影讯模块
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043634409)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043634409.png)
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043720442)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043720442.png)
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043745018)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043745018.png)
 
 ## 常规模块
 
-![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043839161)
+![image](https://github.com/1626901167/ECUT-IMAX-Movie-Home/blob/main/readme_images/image-20240307043839161.png)
